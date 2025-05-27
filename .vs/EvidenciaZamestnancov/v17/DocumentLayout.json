@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|d:\\projects\\skola\\evidenciazamestnancov\\novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +23,10 @@
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\analiza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:analiza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:29:27.532Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,14 +61,14 @@
               "RelativeDocumentMoniker": "NoviRukovodilac.cs",
               "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\NoviRukovodilac.cs",
               "RelativeToolTip": "NoviRukovodilac.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAwwDsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T09:28:53.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "NoviRukovodilac.cs [Design]",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\NoviRukovodilac.cs",
               "RelativeDocumentMoniker": "NoviRukovodilac.cs",
@@ -67,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Database.cs",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Database.cs",
               "RelativeDocumentMoniker": "Database.cs",
@@ -93,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Analiza.cs [Design]",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Analiza.cs",
               "RelativeDocumentMoniker": "Analiza.cs",
@@ -105,25 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T14:29:27.532Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAiwBcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T16:10:44.314Z",
               "EditorCaption": ""

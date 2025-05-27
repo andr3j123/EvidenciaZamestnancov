@@ -13,6 +13,9 @@ namespace EvidenciaZamestnancov
 {
     public partial class Form1 : Form
     {
+        private List<string> SektorIDList = new List<string>();
+
+        public static string selectedSektorID;
         public Form1()
         {
             InitializeComponent();
@@ -48,6 +51,8 @@ namespace EvidenciaZamestnancov
             {              
                 LoadListView((sektorComboBox.SelectedItem).ToString());
                 LoadPodatkeOSektoru((sektorComboBox.SelectedItem).ToString());
+
+                selectedSektorID = SektorIDList[sektorComboBox.SelectedIndex];
             }
         }
 
@@ -119,6 +124,8 @@ namespace EvidenciaZamestnancov
                     while (reader.Read())
                     {
                         sektorComboBox.Items.Add(reader["Naziv"].ToString());
+
+                        SektorIDList.Add(reader["SektorID"].ToString());
                     }
                 }
             }

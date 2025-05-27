@@ -14,6 +14,8 @@ namespace EvidenciaZamestnancov
 {
     public partial class NoviRukovodilac : Form
     {
+        private List<string> radnikIDList = new List<string>(); 
+
         public NoviRukovodilac()
         {
             InitializeComponent();
@@ -30,9 +32,12 @@ namespace EvidenciaZamestnancov
             {
                 conn.Open();
 
-                var cmd = new MySqlCommand("SELECT CONCAT(r.Ime, ' ', r.Prezime) AS punoIme " +
+                var cmd = new MySqlCommand("SELECT CONCAT(r.Ime, ' ', r.Prezime) AS punoIme, r.RadnikID AS id " +
                     "FROM radnik r " +
-                    "JOIN rukovodi_sektorom rs ON r.RadnikID = rs.RadnikID", conn);
+                    "JOIN sektor s ON r.SektorID = s.SektorID " +
+                    "WHERE r.SektorID = @sektorID", conn);
+
+                cmd.Parameters.AddWithValue("@sektorID", Form1.selectedSektorID);
 
                 using (var reader = cmd.ExecuteReader())
                 {
@@ -40,7 +45,9 @@ namespace EvidenciaZamestnancov
 
                     while (reader.Read())
                     {
-                        rukovodilacComboBox.Items.Add(reader["punoIme"].ToString());
+                        rukovodilacComboBox.Items.Add(reader["id"].ToString() + " " + reader["punoIme"].ToString());
+
+                        radnikIDList.Add(reader["id"].ToString());
                     }
                 }
             }
@@ -52,25 +59,24 @@ namespace EvidenciaZamestnancov
             {
                 conn.Open();
 
-                string sektorID;
+                var query = "UPDATE rukovodi_sektorom rs " +
+                                           "SET RadnikID = @noviRadnikID, " +
+                                               "DatumPostavljanja = @datumPostavljanja " +
+                                           "WHERE SektorID = @sektorID";
 
-                var cmd = new MySqlCommand("SELECT RadnikID FROM radnik " +
-                    "WHERE CONCAT(Ime, ' ', Prezime) = @imePrezime", conn);
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@noviRadnikID", radnikIDList[rukovodilacComboBox.SelectedIndex]);
+                    cmd.Parameters.AddWithValue("@datumPostavljanja", dateTimePicker1.Value);
+                    cmd.Parameters.AddWithValue("@SektorID", Form1.selectedSektorID);
 
-                cmd.Parameters.AddWithValue("@imePrezime", rukovodilacComboBox.SelectedItem);
+                    cmd.ExecuteNonQuery();
 
-                using (var reader = cmd.ExecuteReader())
-                { 
+                    MessageBox.Show("Uspesne znemeneni rukovodilac!");
 
-                    if (reader.Read())
-                    {
-                        sektorID = reader["SektorID"].ToString();
-
-                        MessageBox.Show(sektorID);
-                    }
+                    this.Close();
                 }
 
-                
             }
         }
     }
