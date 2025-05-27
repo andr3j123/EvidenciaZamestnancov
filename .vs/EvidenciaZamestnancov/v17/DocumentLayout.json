@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\projects\\skola\\EvidenciaZamestnancov\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|d:\\projects\\skola\\evidenciazamestnancov\\novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|d:\\projects\\skola\\evidenciazamestnancov\\novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|solutionrelative:novirukovodilac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B575F073-CFFA-4C15-A9BC-A8D9E96B1DF7}|EvidenciaZamestnancov.csproj|D:\\projects\\skola\\EvidenciaZamestnancov\\analiza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -55,13 +55,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NoviRukovodilac.cs",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\NoviRukovodilac.cs",
               "RelativeDocumentMoniker": "NoviRukovodilac.cs",
               "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\NoviRukovodilac.cs",
               "RelativeToolTip": "NoviRukovodilac.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAqwEwAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T09:28:53.888Z",
               "EditorCaption": ""
@@ -118,13 +118,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "D:\\projects\\skola\\EvidenciaZamestnancov\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwEsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-24T16:10:44.314Z",
               "EditorCaption": ""
